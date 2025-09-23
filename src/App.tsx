@@ -46,8 +46,8 @@ function App() {
             </div>
           </div>
         </nav>
-
-        {/* Main Content */}
+//
+        {/* Main Content */} 
         <main className="flex-1 bg-gray-50">
           <Routes>
             <Route path="/" element={user ? <InterviewRepo /> : <AuthForm />} />
