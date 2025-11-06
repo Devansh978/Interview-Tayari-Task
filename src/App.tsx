@@ -28,7 +28,7 @@ function App() {
                   <span className="font-bold text-xl">INTERVIEW TAYARI</span>
                 </Link>
               </div>
-             // 
+             
               {user && (
                 <div className="flex items-center space-x-4">
                   <Link to="/" className="hover:text-gray-200">Interview Repo</Link>
