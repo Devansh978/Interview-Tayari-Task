@@ -12,7 +12,7 @@ import { Toaster } from 'react-hot-toast';
 
 function App() {
   const { user, signOut } = useAuth();
-//
+
   return (
     <Router>
       <div className="min-h-screen flex flex-col">
