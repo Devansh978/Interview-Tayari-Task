@@ -3,6 +3,7 @@ import { supabase } from '../lib/supabase';
 import { LogIn, UserPlus, Mail, Eye, EyeOff } from 'lucide-react';
 import toast from 'react-hot-toast';
 
+
 export function AuthForm() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
