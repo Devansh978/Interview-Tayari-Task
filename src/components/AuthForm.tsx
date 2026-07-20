@@ -103,7 +103,7 @@ export function AuthForm() {
             ) : isForgotPassword ? (
               <>
                 <Mail className="w-4 h-4 mr-2" />
-                Send Reset Link
+                Send Reset Link 
               </>
             ) : isSignUp ? (
               <>
